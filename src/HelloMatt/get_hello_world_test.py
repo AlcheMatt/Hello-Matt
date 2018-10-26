@@ -9,3 +9,4 @@ class TestGetHelloWorld(unittest.TestCase):
         result_list = ['Hello World!', 'Hello my world!']
         for my_string, result in zip(my_string_list, result_list):
             self.assertEqual(get_hello_world.get_string(my_string), result)
+        return True
